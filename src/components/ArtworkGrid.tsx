@@ -7,40 +7,40 @@ interface Artwork {
 
 const artworks: Artwork[] = [
   {
-    title: "Хроматический резонанс",
-    artist: "Елена Васильева",
-    year: "2024",
-    image: "/abstract-colorful-painting-modern-art.jpg",
-  },
-  {
-    title: "Городские фрагменты",
-    artist: "Марк Ченов",
-    year: "2024",
-    image: "/contemporary-sculpture-installation.jpg",
-  },
-  {
-    title: "Слои памяти",
-    artist: "София Андерсон",
-    year: "2023",
-    image: "/mixed-media-collage-art.jpg",
-  },
-  {
-    title: "Серия «Идентичность» №7",
-    artist: "Яков Окунев",
+    title: "Утренний свет",
+    artist: "Моя любимая",
     year: "2024",
     image: "/fine-art-portrait-photography.jpg",
   },
   {
-    title: "Эфемерные пространства",
-    artist: "Елена Васильева",
-    year: "2023",
-    image: "/abstract-minimalist-painting.jpg",
+    title: "Улыбка, которую я помню",
+    artist: "Моя любимая",
+    year: "2024",
+    image: "/fine-art-photography-portrait.jpg",
   },
   {
-    title: "Цифровая природа",
-    artist: "Марк Ченов",
+    title: "Тихий вечер",
+    artist: "Моя любимая",
+    year: "2023",
+    image: "/fine-art-black-white-photography.jpg",
+  },
+  {
+    title: "Взгляд, в котором всё",
+    artist: "Моя любимая",
     year: "2024",
-    image: "/digital-art-nature-inspired.jpg",
+    image: "/charcoal-drawing-portrait-sketch.jpg",
+  },
+  {
+    title: "Она и осень",
+    artist: "Моя любимая",
+    year: "2023",
+    image: "/portrait-of-frida-kahlo-with-flowers-in-hair.jpg",
+  },
+  {
+    title: "Счастливый момент",
+    artist: "Моя любимая",
+    year: "2024",
+    image: "/portrait-of-georgia-o-keeffe-american-modernist-pa.jpg",
   },
 ];
 
@@ -49,8 +49,8 @@ export function ArtworkGrid() {
     <section id="works" className="py-16 lg:py-24">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-12">
-          <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Избранные работы</h2>
-          <p className="text-muted-foreground text-lg">Подборка произведений из текущей экспозиции</p>
+          <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Любимые фотографии</h2>
+          <p className="text-muted-foreground text-lg">Моменты, которые хочется помнить вечно</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
